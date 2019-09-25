@@ -35,6 +35,10 @@
   <ItemGroup>
     <Compile Include="Application.vb" />
     <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Models\BankAccount.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
 </Project>
