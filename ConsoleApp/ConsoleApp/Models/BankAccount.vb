@@ -2,12 +2,12 @@
 Option Explicit On
 Option Strict On
 
-Imports System
 
 
 Namespace Models
 	
 	Public Class BankAccount
+    
 		Private id As Integer
         Private fname As String
         Private lname As String
